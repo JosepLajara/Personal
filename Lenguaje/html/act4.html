@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Florida Centre de de Formació</h1>
+    <form class="" action="matricula" method="post">
+      <!--pide nombre y apellidos  del usuario-->
+      Nombre:<input type="text " name="nom" maxlength="50"></input>
+      Apellidos:<input type="text " name="ape" maxlength="50"></input>
+      <!--pide sexo del usuario-->
+      Sexo:
+      <input type="radio" name="sexo" value="hombre">H</input>
+      <input type="radio" name="sexo" value="mujer">M</input>
+      </br>
+      <br>
+      <!--pide fecha de nacimiento del usuario-->
+      <b>Fecha de nacimiento</b>
+      <select name="dia">
+        <option selected="selected" value="dia">dia</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option>
+        <option value="21">21</option>
+        <option value="22">22</option>
+        <option value="23">23</option>
+        <option value="24">24</option>
+        <option value="25">25</option>
+        <option value="26">26</option>
+        <option value="27">27</option>
+        <option value="28">28</option>
+        <option value="29">29</option>
+        <option value="30">30</option>
+        <option value="31">31</option>
+      </select>
+      <select name="mes">
+        <option selected="selected" value="mes">mes</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+      </select>
+      <select name="ano">
+        <option selected="selected" value="ano">año</option>
+        <option value="1990">1990</option>
+        <option value="1991">1991</option>
+        <option value="1992">1992</option>
+        <option value="1993">1993</option>
+        <option value="1994">1994</option>
+        <option value="1995">1995</option>
+        <option value="1996">1996</option>
+        <option value="1997">1997</option>
+        <option value="1998">1998</option>
+        <option value="1999">1999</option>
+        <option value="2000">2000</option>
+        <option value="2001">2001</option>
+        <option value="2002">2002</option>
+        <option value="2003">2003</option>
+        <option value="2004">2004</option>
+        <option value="2005">2005</option>
+        <option value="2006">2006</option>
+        <option value="2007">2007</option>
+        <option value="2008">2008</option>
+        <option value="2009">2009</option>
+        <option value="2010">2010</option>
+        <option value="2011">2011</option>
+        <option value="2012">2012</option>
+        <option value="2013">2013</option>
+        <option value="2014">2014</option>
+        <option value="2015">2015</option>
+        <option value="2016">2016</option>
+        <option value="2017">2017</option>
+      </select>
+      <br>
+      <br>
+      <!--pide modulos del usuario-->
+      <b>Escoge los módulos en los que te matriculas:</b>
+      <table>
+        <tr>
+          <td><input type="checkbox" name="sexo" value="BBDD">Bases de Datos</input></td>
+          <td><input type="checkbox" name="sexo" value="Programacion">Programación</input></td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" name="sexo" value="lenguaje">Lenguajes de Marcas</input></td>
+          <td><input type="checkbox" name="sexo" value="Ingles">Inglés</input></td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" name="sexo" value="Sistemas">Sistemas informáticos</input></td>
+          <td><input type="checkbox" name="sexo" value="Entornos">Entornos de desarrollo</input></td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" name="sexo" value="fol">FOL</input></td>
+          <td><input type="checkbox" name="sexo" value="ADGBD">Administración de Sistemas Gestores de Bases de Datos</input></td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" name="sexo" value="lenguaje2">Lenguajes de Marcas y Sistemas de Gestión de Información</input></td>
+          <td><input type="checkbox" name="sexo" value="seguridad">Seguridad y Alta Disponibilidad</input></td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" name="sexo" value="fol2">Formación y Orientación Laboral</input></td>
+          <td><input type="checkbox" name="sexo" value="EIE">Empresa e Iniciativa Emprendedora</input></td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" name="sexo" value="proyecto">Proyecto de DAW</input></td>
+          <td><input type="checkbox" name="sexo" value="FCT">Formación en Centros de Trabajo</input></td>
+        </tr>
+      </table>
+      <br>
+      <!--pide estudios del usuario-->
+      Estudios previos:<br>
+      <textarea name="comentario" rows="2" cols="45"></textarea>
+      <br>
+      <!--botones de enviar y restablecer-->
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Restablecer">
+    </form>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+  <autor>
+    <nombre>Luis</nombre>
+    <pais>España</pais>
+    <libro>
+      <cod>555</cod>
+      <titulo>Titulo1</titulo>
+      <pag>233</pag>
+    </libro>
+    <libro>
+      <cod>666</cod>
+      <titulo>Titulo2</titulo>
+      <pag>111</pag>
+    </libro>
+  </autor>
+  <autor>
+    <nombre>Pepa</nombre>
+    <pais>Australia</pais>
+    <libro>
+      <cod>777</cod>
+      <titulo>Titulo3</titulo>
+      <pag>564</pag>
+    </libro>
+    <libro>
+      <cod>888</cod>
+      <titulo>Titulo4</titulo>
+      <pag>345</pag>
+    </libro>
+  </autor>

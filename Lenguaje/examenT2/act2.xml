@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escuela>
+  <aula>
+    <nombre>A</nombre>
+    <alumnos>
+      <alumno>
+        <nombre>Jose</nombre>
+        <aula>A</aula>
+        <nacimiento>10-12-2001</nacimiento>
+      </alumno>
+      <alumno>
+        <nombre>María</nombre>
+        <aula>A</aula>
+        <nacimiento>10-12-1902</nacimiento>
+      </alumno>
+    <alumnos>
+  </aula>
+  <aula>
+    <nombre>B</nombre>
+    <alumnos>
+      <alumno>
+        <nombre>Jose</nombre>
+        <aula>B</aula>
+        <nacimiento>10-12-2001</nacimiento>
+      </alumno>
+      <alumno>
+        <nombre>María</nombre>
+        <aula>B</aula>
+        <nacimiento>10-12-1902</nacimiento>
+      </alumno>
+  </alumnos>
+  </aula>
+</escuela>

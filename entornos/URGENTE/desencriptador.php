@@ -10,8 +10,4 @@ for ($i=0; $i<=strlen($frase_codificada); $i++) {
     echo "la letra es: ".$frase ."<br>";
 }
 
-
-
-
-
 ?>
